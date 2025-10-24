@@ -75,7 +75,7 @@ margin-left: 50px;
    
 }
 .color-picker{
-    background: rgb(219, 220, 228);
+background: rgb(219, 220, 228);
 width:400px;
 border: 1px solid grey;
 padding: 10px;
@@ -101,7 +101,7 @@ padding: 20px;
 margin: 20px;
 font-size: 25px;
 border: 3px solid rgb(59, 29, 29);
-border-radius: 35px;
+border-radius: 10px;
 cursor: pointer;
 background: rgb(242, 238, 238) ;
 cursor: pointer;

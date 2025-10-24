@@ -53,9 +53,9 @@ setSliderValue(Number(e.target.value));
  value={sliderValue}/>
  </div>
 <div className="reset-container">
- <button onClick={()=>{ setAngle(angle + 30);}} className="reset-button"><IterationCw/> Rotate Right</button>
+ <button onClick={()=>{ setAngle(angle + 30);}} className="reset-button"><IterationCw/> Right</button>
 
-  <button onClick={()=>{ setAngle(angle + -30);}} className="reset-button"> Rotate Right <IterationCcw/></button>
+  <button onClick={()=>{ setAngle(angle + -30);}} className="reset-button"> Left <IterationCcw/></button>
   </div>
 
   <div className="emoji-picker">
