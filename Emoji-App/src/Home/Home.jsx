@@ -1,7 +1,7 @@
 import "./Home.css"
 import { useState } from "react";
 import EmojiButton from "../EmojiButton/EmojiButton"
-import ColorButton from "../Colorbutton/ColorButton"
+import ColorButton from "../ColorButton/ColorButton"
 import { IterationCcw,IterationCw } from 'lucide-react';
 function Home() {
     const[emoji,setEmoji]=  useState("📌");
@@ -29,12 +29,11 @@ function Home() {
 
   <div className="app-container">
   <h1 className="header">
-    Playing With Emoji Using {""}
-    <span className="span">UseState</span>
+    Emoji Spinner{""}
   </h1>
   <p className="app-description">
-This is a simple React App that demonstrates how to use the {""}
-<code>useState</code> hook to manage state in a functional component.
+A basic React project built to demonstrate state management using the useState hook. {""}
+
   </p>
 
   <div className="emoji-container" style={{fontSize:`${sliderValue}px`, backgroundColor:bgcolor }}>

@@ -1,8 +1,6 @@
 .header{
     text-align: center;  
      pointer-events: none;
-
-
 }
 .span{
     color: red;
@@ -109,3 +107,4 @@ background: rgb(242, 238, 238) ;
 cursor: pointer;
 font-weight: 700;
 }
+
