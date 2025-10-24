@@ -97,7 +97,7 @@ margin-right: 50px;
       margin:50px auto;
 }
 .reset-button{
-padding: 20px;
+padding: 10px;
 margin: 20px;
 font-size: 25px;
 border: 3px solid rgb(59, 29, 29);
@@ -106,5 +106,7 @@ cursor: pointer;
 background: rgb(242, 238, 238) ;
 cursor: pointer;
 font-weight: 700;
+background-color: black;
+color: white;
 }
 
